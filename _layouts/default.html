@@ -6,37 +6,57 @@
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="../assets/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="../assets/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="../assets/favicons/manifest.json">
+        <link rel="mask-icon" href="../assets/favicons/safari-pinned-tab.svg" color="#000000">
+        <meta name="theme-color" content="#ffffff">
+
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
 
     </head>
     <body>
+          <nav>
+            <a href="/{{page.nav_url}}" title="Bruce Moerdjiman - {{page.nav}}">{{page.nav}}</a>
+          </nav>
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+          <header class="header">
+            <h1 class="logo"><a href="/">Bruce Moerdjiman</a></h1>
+            <h3 class="title">UX Motion designer &amp; Frontend Developer</h3>
+          </header>
 
           {{ content }}
 
+          <script src="/js/script.min.js"></script>
+          <script type="text/javascript">
+          // load all files asynchronously!
+          var script = $script;
+          script.path('/js/');
 
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name is<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
+          /*
+          $script.get('https://code.jquery.com/jquery-3.2.1.min.js', function () {
+          });
+          */
+
+          $script.get('https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js', function () {
+            WebFont.load({
+              google: {
+                families: ['Montserrat', 'Lora']
+              },
+              typekit: {
+                 id: 'ptu0nia'
+               }
+            });
+          });
+
+
+        </script>
+
+
+
 
     </body>
 </html>

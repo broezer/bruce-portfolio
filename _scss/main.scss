@@ -1,6 +1,264 @@
-@import "reset";
-@import "syntax";
+@import "../bower_components/bourbon/app/assets/stylesheets/_bourbon";
+@import "../bower_components/neat/core/_neat";
+@import "_core/_base";
 
 body {
     background: white;
+    //max-width:1440px;
+    transition: opacity 300ms ease-in;
+		visibility: hidden;
+		opacity:0;
+}
+
+.wf-loading body{
+		visibility: hidden;
+		opacity:0;
+}
+
+.wf-active body{
+    visibility: visible;
+		opacity:1;
+
+  }
+
+
+img{
+  width:100%;
+  height:auto;
+}
+
+
+nav{
+  /* Rectangle 2: */
+  position: relative;
+  display: block;
+  margin-top: 2vw;
+  margin-right:2vw;
+  a{
+    @extend h3;
+    font-weight:700;
+    border: 0.15vw solid #000000;
+    border-radius: 0.1vw;
+    text-transform: uppercase;
+    padding: 2vw 2.4vw 1.6vw;
+    float:right;
+    transition: all 150ms ease-in;
+
+    @include grid-media($tablet){
+      padding: 0.5vw 1.2vw 0.4vw;
+    }
+    &:link, &:visited{
+      color:black;
+    }
+    &:hover, &:active{
+      color:white;
+      background: black;
+    }
+  }
+  @include clearfix();
+}
+
+a.goto{
+  @extend h3;
+  text-transform: uppercase;
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.2vw;
+    bottom: -0.5vw;
+    left: 0;
+    background-color: #000;
+    visibility: visible;
+    transform: scaleX(1);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  &:link, &:visited{
+    color:black;
+  }
+  &:hover, &:active{
+    &:before{
+      //visibility: hidden;
+      transform: scaleX(0);
+    }
+  }
+}
+
+a{
+  &:link, &:visited,&:hover, &:active{
+    color:black;
+  }
+}
+
+header.header{
+  width:100%;
+  text-align:center;
+  padding-top:5vw;
+  padding-bottom:8vw;
+  h1.logo{
+
+    text-transform: uppercase;
+    font-weight:900;
+    a:link, a:visited{
+      color:black
+    }
+    @include grid-media($tablet){
+      font-size: (100/1440) * 28 * $mobile-factor * 1vw;
+      letter-spacing: (100/1440) * 5 * $mobile-factor * 1vw;
+    }
+  }
+  h3.title{
+    text-transform: uppercase;
+    font-weight:300;
+  }
+}
+
+article header{
+  margin-bottom:3vw
+}
+
+
+article{
+  position: relative;
+  margin:0 auto;
+  width:96%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom:10vw;
+  @include grid-media($tablet){
+     width:(1124/1440) * 100%;
+  }
+  figure{
+    margin:0;
+    margin-bottom: 4vw;
+  }
+}
+
+
+
+
+
+
+
+
+article.sevdaliza{
+  figure{
+    width:47%;
+    margin-right:6%;
+  }
+  section.content{
+    margin-top: 11vw;
+    width:47%;
+  }
+}
+
+
+article.momentr{
+  figure{
+    width:80%;
+    margin-left:20%;
+  }
+  section.content{
+    width:80%;
+    @include grid-media($tablet){
+      width:47%;
+    }
+  }
+}
+
+article.containr-affairs{
+  width:98%;
+  @include grid-media($tablet){
+    width:90%;
+  }
+  figure{
+    width:50%;
+    margin-left:0;
+    @include grid-media($tablet){
+      margin-left:5%;
+    }
+  }
+  section.content{
+    position: absolute;
+    width: 45%;
+    left: 55%;
+  }
+}
+
+
+article.woordfruit{
+  figure{
+    width:84%;
+    margin-left:8%;
+    margin-right:8%;
+
+  }
+  section.content{
+
+  }
+}
+
+article.rma{
+  flex-direction: row-reverse;
+  figure{
+    width:80%;
+  }
+  section.content{
+    position: absolute;
+    left:0;
+    width: 50%;
+    z-index:9;
+    margin-top: 0;
+    @include grid-media($tablet){
+      margin-top: 6vw;
+    };
+  }
+
+}
+
+article.tsm{
+  figure{
+    width:80%;
+    margin-right: 20%;
+  }
+  section.content{
+    margin-left:50%;
+    width: 50%;
+  }
+}
+
+footer{
+  h2, h3{
+    text-align:center;
+  }
+  padding-bottom:5vw;
+}
+
+
+main.about{
+  header{
+    text-align:center;
+    margin-bottom:5vw;
+    h1{
+      margin-bottom:2vw;
+    }
+  }
+  figure{
+    width:60%;
+  }
+  section.content{
+    width:40%;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    margin-top:-10vw;
+    h2{
+      width:100%;
+      display: inline-block;
+    }
+  }
+  .lower{
+    margin-top:-10vw;
+  }
 }

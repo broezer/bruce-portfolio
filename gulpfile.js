@@ -51,11 +51,13 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
  */
 gulp.task('sass', function () {
     return gulp.src('_scss/main.scss')
+        .pipe(sourcemaps.init())
         .pipe(sass({
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(sourcemaps.write())
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'));
@@ -66,8 +68,21 @@ gulp.task('sass', function () {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('_scss/*.scss', ['sass']);
-    gulp.watch(['*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('_scss/**/*.scss', ['sass']);
+    gulp.watch(['*.html', 'about/*.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+});
+
+
+/**
+ * Minify CSS
+ */
+gulp.task('minify-css', function() {
+    return gulp.src('css/*.css')
+        .pipe(cleanCSS({debug: true}, function(details) {
+            console.log(details.name + ': ' + details.stats.originalSize);
+            console.log(details.name + ': ' + details.stats.minifiedSize);
+        }))
+        .pipe(gulp.dest('dist'));
 });
 
 /**

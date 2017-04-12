@@ -1,0 +1,97 @@
+//@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+//@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+
+html {
+  color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading-font-family;
+  font-size: modular-scale(1);
+  line-height: $heading-line-height;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 $small-spacing;
+}
+
+a {
+  color: $action-color;
+  text-decoration: none;
+  transition: color $base-duration $base-timing;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: shade($action-color, 25%);
+  }
+}
+
+hr {
+  border-bottom: $base-border;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: $base-spacing 0;
+}
+
+
+
+h1{
+ font-size: (100/1440) * 39 * $mobile-factor * 1vw;
+ letter-spacing: (100/1440) * 1.4 * $mobile-factor  * 1vw;
+}
+
+h1,h3{
+ font-weight:600
+}
+
+
+h2{
+ font-weight:300;
+ font-size: (100/1440) * 16.3 * $mobile-factor  * 1vw;
+}
+
+h2, h3{
+ letter-spacing: (100/1440) * 4.2 * $mobile-factor  * 1vw;
+ line-height: (100/1440) * 25.2 * $mobile-factor  * 1vw;
+}
+
+h3{
+ font-size: (100/1440) * 15.4 * $mobile-factor  * 1vw;
+}
+
+@include grid-media($tablet){
+  h1{
+   font-size: (100/1440) * 39 * 1vw;
+   letter-spacing: (100/1440) * 1.4 * 1vw;
+  }
+
+  h1,h3{
+   font-weight:600
+  }
+
+
+  h2{
+   font-weight:300;
+   font-size: (100/1440) * 16.3 * 1vw;
+  }
+
+  h2, h3{
+   letter-spacing: (100/1440) * 4.2 * 1vw;
+   line-height: (100/1440) * 25.2 * 1vw;
+  }
+
+  h3{
+   font-size: (100/1440) * 15.4 * 1vw;
+  }
+}
