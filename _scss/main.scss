@@ -170,6 +170,33 @@ article.indo{
 }
 
 
+article.olaonda{
+  width:98%;
+  @include grid-media($tablet){
+    width:90%;
+  }
+  figure{
+    width:65%;
+    margin-left:0;
+    @include grid-media($tablet){
+			//width:75%;
+      margin-left:0;
+    }
+  }
+  section.content{
+    position: absolute;
+    width: 30%;
+    left: 68%;
+		top:-5vw;
+		@include grid-media($tablet){
+			top:0;
+			 left: 60%;
+    }
+  }
+}
+
+
+
 article.momentr{
   figure{
     width:80%;
