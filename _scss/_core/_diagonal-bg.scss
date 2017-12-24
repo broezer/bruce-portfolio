@@ -18,8 +18,17 @@
 
 .cal-wrap{
 	display: flex;
+	flex-wrap: wrap;
 	position: relative;
 	margin-left: calc((100%/40)*2);
+}
+
+.main-head{
+	display: flex;
+  width: calc((100%/40)*38);
+	height:2vw;
+	border-top:1px solid black;
+	border-right:1px solid black;
 }
 
 .main-cal{
@@ -33,12 +42,14 @@
 	width: calc((100%/40)*36);
 }
 
+$darkgrey: #313131;
+
 .month-cal{
 	display: flex;
 	width: calc((100%/40)*2);
 	height: calc(100%-4.4vw);
 	//background:grey;
-	@include dg-bg(grey);
+	@include dg-bg($darkgrey);
 	padding-top:4.4vw;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -138,6 +149,10 @@ $orange: #F5A623;
 	}
 }
 
+.cell-special{
+	border-bottom: none;
+	@include dg-bg($darkgrey);
+}
 
 .date{
 	background:black;
