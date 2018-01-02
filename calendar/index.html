@@ -285,8 +285,8 @@ days:
 <main class="calendar">
 	<div class="cal-wrap">
 		<div class="main-head">
-			{% capture count %}{{include.count|default:37}}{% endcapture %}
-				{% for num in (1...	count) %}
+
+			{% for i in (1..37) %}
 			   <div class="cell cell-special"></div>
 			{% endfor %}
 		</div>
