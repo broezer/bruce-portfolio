@@ -69,7 +69,7 @@ $darkgrey: #313131;
 		}
 	}
 
-	.jan{
+	.jan, .apr{
 		background:white;
 		flex: 1;
 		border-top:1px solid black;
@@ -80,8 +80,12 @@ $darkgrey: #313131;
 		//height:22%;
 		flex: 0.9;
 	}
+	.may{
+		background:white;
+		flex: 1;
+	}
 
-	.jan, .feb{
+	.jan, .feb, .apr, .may{
 		position: relative;
 		&:after{
 			display: block;
@@ -96,7 +100,7 @@ $darkgrey: #313131;
 			z-index:99;
 		}
 	}
-	.mar{
+	.mar, .jun{
 		background:white;
 		flex: 1;
 		border-bottom:1px solid black;
@@ -119,8 +123,17 @@ $orange: #F5A623;
 	border-bottom: 1px solid black;
 	box-sizing: border-box;
 	position: relative;
+	&.grey{
+		@include dg-bg(grey);
+	}
+	&.darkturquoise{
+		@include dg-bg(darkturquoise);
+	}
 	&.red{
 		@include dg-bg(red);
+	}
+	&.magenta{
+		@include dg-bg(magenta);
 	}
 	&.blue{
 		@include dg-bg($blue);

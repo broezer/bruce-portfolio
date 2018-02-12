@@ -1,0 +1,273 @@
+- date: 1
+  place: '-'
+  bg: grey
+- date: 2
+  place: '-'
+  bg: grey
+- date: 3
+  place: '-'
+  bg: grey
+- date: 4
+  place: '-'
+  bg: grey
+- date: 5
+  place: '-'
+  bg: grey
+- date: 6
+  place: '-'
+  bg: grey
+- date: 7
+  place: '-'
+  bg: grey
+- date: 8
+  place: '-'
+  bg: grey
+- date: 9
+  place: '-'
+  bg: grey
+- date: 10
+  place: '-'
+  bg: grey
+- date: 11
+  place: '-'
+  bg: grey
+- date: 12
+  place: '-'
+  bg: grey
+- date: 13
+  place: '-'
+  bg: grey
+- date: 14
+  place: '-'
+  bg: grey
+- date: 15
+  place: '-'
+  bg: grey
+- date: 16
+  place: ''
+  bg: grey
+- date: 17
+  place: ''
+  bg: grey
+- date: 18
+  place: Brisbane
+  bg: grey
+- date: 19
+  place: Sydney
+  bg: grey
+- date: 20
+  place: Melbourne
+  bg: grey
+- date: 21
+  place: Hobart
+  bg: grey
+- date: 22
+  place: ''
+  bg: grey
+- date: 23
+  place: '-'
+  bg: grey
+- date: 24
+  place: '-'
+  bg: grey
+- date: 25
+  place: '-'
+  bg: grey
+- date: 26
+  place: 'Sydney'
+  bg: grey
+- date: 27
+  place: 'Colombo'
+  bg: grey
+- date: 28
+  place: '-'
+  bg: grey
+- date: 29
+  place: '-'
+  bg: grey
+- date: 30
+  place: '-'
+  bg: grey
+- date: 31
+  place: '-'
+  bg: grey
+- date: 1
+  place: 'Colombo'
+  bg: grey
+- date: 2
+  place: 'Vienna'
+  bg: grey
+- date: 3
+  place: '-'
+  bg: grey
+- date: 4
+  place: 'Cologne'
+  bg: grey
+- date: 5
+  place: '-'
+  bg: grey
+- date: 6
+  place: '-'
+  bg: grey
+- date: 7
+  place: '-'
+  bg: grey
+- date: 8
+  place: 'Budapest'
+  bg: green
+- date: 9
+  place: 'Bucharest'
+  bg: green
+- date: 10
+  place: 'Sofia'
+  bg: green
+- date: 11
+  place: ''
+  bg: green
+- date: 12
+  place: '-'
+  bg:
+- date: 13
+  place: '-'
+  bg:
+- date: 14
+  place: '-'
+  bg:
+- date: 15
+  place: 'Brussels'
+  bg: green
+- date: 16
+  place: 'Zurich'
+  bg: green
+- date: 17
+  place: 'Prague'
+  bg: green
+- date: 18
+  place:
+  bg: green
+- date: 19
+  place:
+  bg:
+- date: 20
+  place:
+  bg: purple
+- date: 21
+  place: San Diego
+  bg: purple
+- date: 22
+  place: ''
+  bg: purple
+- date: 23
+  place: Los Angeles
+  bg: purple
+- date: 24
+  place: San Francisco
+  bg: purple
+- date: 25
+  place:
+  bg: purple
+- date: 26
+  place: ''
+  bg: purple
+- date: 27
+  place: Washington
+  bg: purple
+- date: 28
+  place: New York
+  bg: purple
+- date: 1
+  place: ''
+  bg: purple
+- date: 2
+  place:
+  bg:
+- date: 3
+  place:
+  bg:
+- date: 4
+  place: ''
+  bg:
+- date: 5
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 6
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 7
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 8
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 9
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 10
+  place: '-'
+  bg:
+- date: 11
+  place: '-'
+  bg:
+- date: 12
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 13
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 14
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 15
+  place: 'Middelandstraat'
+  bg: darkturquoise
+- date: 16
+  place: ''
+  bg: red
+- date: 17
+  place: 'Hong Kong'
+  bg: red
+- date: 18
+  place: 'Taipei'
+  bg: red
+- date: 19
+  place:
+  bg: red
+- date: 20
+  place: 'Seoul'
+  bg: red
+- date: 21
+  place:
+  bg: red
+- date: 22
+  place: 'Tokyo'
+  bg: red
+- date: 23
+  place: 'Shanghai'
+  bg: red
+- date: 24
+  place: 'Bejing'
+  bg: red
+- date: 25
+  place: ''
+  bg: red
+- date: 26
+  place: ''
+  bg: red
+- date: 27
+  place: 'Kuala Lumpur'
+  bg: red
+- date: 28
+  place: ''
+  bg: red
+- date: 29
+  place: '-'
+  bg:
+- date: 30
+  place: 'Confetti Fest'
+  bg: magenta
+- date: 31
+  place: 'Confetti Fest'
+  bg: magenta
+- date: '1'
+  place: ' '
+  bg: magenta
