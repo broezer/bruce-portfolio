@@ -114,16 +114,16 @@
   bg: grey
 - date: 8
   place: 'Budapest'
-  bg: green
+  bg: grey
 - date: 9
   place: 'Bucharest'
-  bg: green
+  bg: grey
 - date: 10
   place: 'Sofia'
-  bg: green
+  bg: grey
 - date: 11
   place: ''
-  bg: green
+  bg: grey
 - date: 12
   place: '-'
   bg:
