@@ -146,26 +146,26 @@
   place: 'Portugal'
   bg: orange
 - date: 21
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 22
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 23
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 24
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 25
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 26
-  place: 'Portugal'
-  bg: orange
+  place: 'London'
+  bg: green
 - date: 27
-  place: 'Portugal'
-  bg: orange
+  place:
+  bg:
 - date: 28
   place:
   bg:
@@ -179,11 +179,11 @@
   place: '-'
   bg:
 - date: 1
-  place: ''
-  bg:
+  place: 'Barcelona'
+  bg: green
 - date: 2
-  place:
-  bg:
+  place: 'Düdingen'
+  bg: green
 - date: 3
   place:
   bg:
