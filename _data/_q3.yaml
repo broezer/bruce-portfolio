@@ -1,63 +1,69 @@
 - date: 2
-  place: 'Short Seconds'
-  bg: blue
-- date: 3
-  place: 'Short Seconds'
-  bg: blue
-- date: 4
-  place: 'Short Seconds'
-  bg: blue
-- date: 5
-  place: 'Short Seconds'
-  bg: blue
-- date: 6
-  place: 'Short Seconds'
-  bg: blue
-- date: 7
-  place: '-'
+  place: ''
   bg:
+- date: 3
+  place: ''
+  bg:
+- date: 4
+  place: ''
+  bg:
+- date: 5
+  place: ''
+  bg:
+- date: 6
+  place: 'Liège'
+  bg: red
+  festival: 'Les Ardentes'
+- date: 7
+  place: 'Gdynia'
+  bg: red
+  festival: 'Opener Festival'
 - date: 8
   place:
   bg:
 - date: 9
-  place: 'Bill Ringa'
-  bg: red
+  place: ''
+  bg:
 - date: 10
-  place: 'Bill Ringa'
-  bg: red
+  place: ''
+  bg:
 - date: 11
-  place: 'Bill Ringa'
-  bg: red
+  place: ''
+  bg:
 - date: 12
-  place: 'Bill Ringa'
+  place: 'Novi Sad'
+  festival: 'Exit'
   bg: red
 - date: 13
-  place: 'Bill Ringa'
-  bg: red
+  place: ''
+  bg:
 - date: 14
-  place: '-'
-  bg:
+  place: 'Gräfenhainichen'
+  bg: red
+  festival: 'Melt'
 - date: 15
+  place: 'Rotterdam'
+  bg: red
+  festival: 'North Sea Jazz'
+- date: 16
   place: '-'
   bg:
-- date: 16
-  place: 'Bill Ringa'
-  bg: red
 - date: 17
-  place: 'Bill Ringa'
-  bg: red
-- date: 18
-  place: 'Bill Ringa'
-  bg: red
-- date: 19
-  place: 'Bill Ringa'
-  bg: red
-- date: 20
-  place: 'Bill Ringa'
-  bg: red
-- date: 21
-  place:
+  place: ''
   bg:
+- date: 18
+  place: ''
+  bg:
+- date: 19
+  place: ''
+  bg:
+- date: 20
+  place: ''
+  bg:
+- date: 21
+  place: 'Lissabon'
+  bg: red
+  festival: 'Super Bock'
 - date: 22
   place: ''
   bg:
@@ -83,6 +89,9 @@
   place: '-'
   bg:
 - date: 30
+  place: '-'
+  bg:
+- date: 31
   place: '-'
   bg:
 - date: 1
@@ -125,26 +134,28 @@
   place: '-'
   bg:
 - date: 14
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 15
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 16
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 17
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 18
-  place: 'Portugal'
-  bg: orange
+  place: 'Hamburg'
+  bg: red
+  festival: 'MS Dockville'
 - date: 19
-  place: 'Portugal'
-  bg: orange
+  place: ''
+  bg:
 - date: 20
-  place: 'Portugal'
-  bg: orange
+  place: 'Moskou'
+  bg: red
+  festival: 'Garage'
 - date: 21
   place: ''
   bg:
@@ -161,9 +172,8 @@
   place: ''
   bg:
 - date: 26
-  place: 'London'
-  bg: green
-  festival: 'All Points East'
+  place: ''
+  bg:
 - date: 27
   place:
   bg:
@@ -180,13 +190,12 @@
   place: '-'
   bg:
 - date: 1
-  place: 'Barcelona'
-  bg: green
-  festival: 'Primavera'
+  place: 'Dublin'
+  bg: red
+  festival: 'Electric Picnic'
 - date: 2
-  place: 'Düdingen'
-  bg: green
-  festival: 'Bad Bonn Kilbi'
+  place: ''
+  bg:
 - date: 3
   place:
   bg:
@@ -269,8 +278,5 @@
   place: '-'
   bg:
 - date: 30
-  place: '-'
-  bg:
-- date:
   place: '-'
   bg:

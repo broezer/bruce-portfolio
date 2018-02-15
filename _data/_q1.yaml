@@ -150,12 +150,12 @@
   bg:
 - date: 20
   place:
-  bg: purple
+  bg: 
 - date: 21
-  place: San Diego
+  place:
   bg: purple
 - date: 22
-  place: ''
+  place: 'San Diego'
   bg: purple
 - date: 23
   place: Los Angeles
