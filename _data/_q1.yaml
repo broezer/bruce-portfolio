@@ -126,22 +126,22 @@
   bg: grey
 - date: 12
   place: '-'
-  bg:
+  bg: grey
 - date: 13
   place: '-'
-  bg:
+  bg: grey
 - date: 14
   place: '-'
-  bg:
+  bg: grey
 - date: 15
   place: 'Brussels'
-  bg: green
+  bg: grey
 - date: 16
   place: 'Zurich'
-  bg: green
+  bg: grey
 - date: 17
   place: 'Prague'
-  bg: green
+  bg: grey
 - date: 18
   place:
   bg: green
@@ -150,7 +150,7 @@
   bg:
 - date: 20
   place:
-  bg: 
+  bg:
 - date: 21
   place:
   bg: purple
