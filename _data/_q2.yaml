@@ -125,7 +125,7 @@
   place: '-'
   bg:
 - date: 14
-  place: 'Portugal'
+  place: ''
   bg: orange
 - date: 15
   place: 'Portugal'
@@ -146,14 +146,14 @@
   place: 'Portugal'
   bg: orange
 - date: 21
-  place: ''
-  bg:
+  place: 'Portugal'
+  bg: orange
 - date: 22
-  place: ''
-  bg:
+  place: 'Portugal'
+  bg: orange
 - date: 23
-  place: ''
-  bg:
+  place: 'Portugal'
+  bg: orange
 - date: 24
   place: ''
   bg:
