@@ -144,49 +144,49 @@
   bg: grey
 - date: 18
   place:
-  bg: green
+  bg: grey
 - date: 19
   place:
-  bg:
+  bg: grey
 - date: 20
   place:
-  bg:
+  bg: grey
 - date: 21
   place:
-  bg: purple
+  bg: grey
 - date: 22
   place: 'San Diego'
-  bg: purple
+  bg: grey
 - date: 23
   place: Los Angeles
-  bg: purple
+  bg: grey
 - date: 24
   place: San Francisco
-  bg: purple
+  bg: grey
 - date: 25
   place:
-  bg: purple
+  bg: grey
 - date: 26
   place: ''
-  bg: purple
+  bg: grey
 - date: 27
   place: Washington
-  bg: purple
+  bg: grey
 - date: 28
   place: New York
-  bg: purple
+  bg: grey
 - date: 1
   place: ''
-  bg: purple
+  bg: grey
 - date: 2
   place:
-  bg:
+  bg: grey
 - date: 3
   place:
-  bg:
+  bg: grey
 - date: 4
   place: ''
-  bg:
+  bg: grey
 - date: 5
   place: 'Middelandstraat'
   bg: darkturquoise
