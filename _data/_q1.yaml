@@ -189,25 +189,25 @@
   bg: grey
 - date: 5
   place: 'Middelandstraat'
-  bg: darkturquoise
+  bg: grey
 - date: 6
   place: 'Middelandstraat'
-  bg: darkturquoise
+  bg: grey
 - date: 7
   place: 'Middelandstraat'
-  bg: darkturquoise
+  bg: grey
 - date: 8
   place: 'Middelandstraat'
-  bg: darkturquoise
+  bg: grey
 - date: 9
   place: 'Middelandstraat'
-  bg: darkturquoise
+  bg: grey
 - date: 10
   place: '-'
-  bg:
+  bg: grey
 - date: 11
   place: '-'
-  bg:
+  bg: grey
 - date: 12
   place: 'Middelandstraat'
   bg: darkturquoise
@@ -226,42 +226,49 @@
 - date: 17
   place: 'Hong Kong'
   bg: red
+  festival: 'Sónar Hong Kong'
 - date: 18
   place: 'Taipei'
   bg: red
+  festival: 'Brown Sugar'
 - date: 19
-  place:
+  place: 'Taipei'
+  festival: ''
   bg: red
 - date: 20
   place: 'Seoul'
+  festival: 'V-Hall'
   bg: red
 - date: 21
-  place:
+  place: 'Seoul'
   bg: red
 - date: 22
-  place: 'Tokyo'
+  place: 'Seoul - Shanghai'
   bg: red
 - date: 23
   place: 'Shanghai'
   bg: red
+  festival: 'Bandai Namco Dream Hall'
 - date: 24
   place: 'Bejing'
   bg: red
+  festival: 'Omni Space'
 - date: 25
-  place: ''
+  place: 'Bejing'
   bg: red
 - date: 26
-  place: ''
+  place: 'Kuala Lumpur'
   bg: red
 - date: 27
   place: 'Kuala Lumpur'
   bg: red
+  festival: 'The Bee'
 - date: 28
-  place: ''
+  place: 'Kuala Lumpur'
   bg: red
 - date: 29
-  place: '-'
-  bg:
+  place: 'Kuala Lumpur - Amsterdam'
+  bg: red
 - date: 30
   place: 'Confetti Fest'
   bg: magenta
