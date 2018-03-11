@@ -243,7 +243,7 @@
   place: 'Seoul'
   bg: red
 - date: 22
-  place: 'Seoul - Shanghai'
+  place: 'Seoul/Shanghai'
   bg: red
 - date: 23
   place: 'Shanghai'
@@ -267,7 +267,7 @@
   place: 'Kuala Lumpur'
   bg: red
 - date: 29
-  place: 'Kuala Lumpur - Amsterdam'
+  place: 'Amsterdam'
   bg: red
 - date: 30
   place: 'Confetti Fest'
