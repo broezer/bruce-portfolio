@@ -188,19 +188,19 @@
   place: ''
   bg: grey
 - date: 5
-  place: 'Middelandstraat'
+  place: '-'
   bg: grey
 - date: 6
-  place: 'Middelandstraat'
+  place: '-'
   bg: grey
 - date: 7
-  place: 'Middelandstraat'
+  place: ''
   bg: grey
 - date: 8
-  place: 'Middelandstraat'
+  place: ''
   bg: grey
 - date: 9
-  place: 'Middelandstraat'
+  place: ''
   bg: grey
 - date: 10
   place: '-'
@@ -209,56 +209,56 @@
   place: '-'
   bg: grey
 - date: 12
-  place: 'Middelandstraat'
-  bg: darkturquoise
+  place: 'Middellandstr.'
+  bg: grey
 - date: 13
-  place: 'Middelandstraat'
-  bg: darkturquoise
+  place: 'Middellandstr.'
+  bg: grey
 - date: 14
-  place: 'Middelandstraat'
-  bg: darkturquoise
+  place: 'Middellandstr.'
+  bg: grey
 - date: 15
-  place: 'Middelandstraat'
-  bg: darkturquoise
+  place: 'Middellandstr.'
+  bg: grey
 - date: 16
-  place: ''
-  bg: red
+  place: 'Dubai/HK'
+  bg: grey
 - date: 17
   place: 'Hong Kong'
-  bg: red
+  bg: grey
   festival: 'Sónar Hong Kong'
 - date: 18
   place: 'Taipei'
-  bg: red
+  bg: grey
   festival: 'Brown Sugar'
 - date: 19
   place: 'Taipei'
   festival: ''
-  bg: red
+  bg: grey
 - date: 20
   place: 'Seoul'
   festival: 'V-Hall'
-  bg: red
+  bg: grey
 - date: 21
   place: 'Seoul'
-  bg: red
+  bg: grey
 - date: 22
   place: 'Seoul/Shanghai'
-  bg: red
+  bg: grey
 - date: 23
   place: 'Shanghai'
-  bg: red
+  bg: grey
   festival: 'Bandai Namco Dream Hall'
 - date: 24
   place: 'Bejing'
-  bg: red
+  bg: grey
   festival: 'Omni Space'
 - date: 25
   place: 'Bejing'
-  bg: red
+  bg: grey
 - date: 26
   place: 'Kuala Lumpur'
-  bg: red
+  bg: grey
 - date: 27
   place: 'Kuala Lumpur'
   bg: red
