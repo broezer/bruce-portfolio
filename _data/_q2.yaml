@@ -74,8 +74,8 @@
   place:
   bg:
 - date: 27
-  place:
-  bg:
+  place: 'Kings Day'
+  bg: orange
 - date: 28
   place: '-'
   bg:
