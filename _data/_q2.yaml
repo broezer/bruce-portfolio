@@ -1,12 +1,12 @@
 - date: 2
-  place: 'Short Seconds'
-  bg: blue
+  place: ''
+  bg: grey
 - date: 3
   place: 'Short Seconds'
   bg: blue
 - date: 4
-  place: 'Short Seconds'
-  bg: blue
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 5
   place: 'Short Seconds'
   bg: blue
