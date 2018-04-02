@@ -23,17 +23,17 @@
   place: 'Bill Ringa'
   bg: red
 - date: 10
-  place: 'Bill Ringa'
-  bg: red
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 11
-  place: 'Bill Ringa'
-  bg: red
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 12
-  place: 'Bill Ringa'
-  bg: red
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 13
-  place: 'Bill Ringa'
-  bg: red
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 14
   place: '-'
   bg:
@@ -126,7 +126,7 @@
   bg:
 - date: 14
   place: ''
-  bg: 
+  bg:
 - date: 15
   place: 'Portugal'
   bg: orange
