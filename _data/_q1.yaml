@@ -261,20 +261,20 @@
   bg: grey
 - date: 27
   place: 'Kuala Lumpur'
-  bg: red
+  bg: grey
   festival: 'The Bee'
 - date: 28
   place: 'Kuala Lumpur'
-  bg: red
+  bg: grey
 - date: 29
   place: 'Amsterdam'
-  bg: red
+  bg: grey
 - date: 30
   place: 'Confetti Fest'
-  bg: magenta
+  bg: grey
 - date: 31
   place: 'Confetti Fest'
-  bg: magenta
+  bg: grey
 - date: '1'
   place: ' '
-  bg: magenta
+  bg: grey
