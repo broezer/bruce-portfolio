@@ -3,10 +3,10 @@
   bg: grey
 - date: 3
   place: 'Short Seconds'
-  bg: blue
+  bg: grey
 - date: 4
-  place: 'Middelland'
-  bg: darkturquoise
+  place: 'Short Seconds'
+  bg: grey
 - date: 5
   place: 'Short Seconds'
   bg: blue
