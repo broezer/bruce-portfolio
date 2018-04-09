@@ -56,8 +56,8 @@
   place: 'Short Seconds'
   bg: blue
 - date: 21
-  place:
-  bg:
+  place: 'Confetti Club'
+  bg: magenta
 - date: 22
   place: ''
   bg:
