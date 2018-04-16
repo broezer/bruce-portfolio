@@ -21,19 +21,19 @@
   bg:
 - date: 9
   place: 'Bill Ringa'
-  bg: red
+  bg: grey
 - date: 10
   place: 'Off-day'
-  bg: orange
+  bg: grey
 - date: 11
   place: 'Short Seconds'
-  bg: blue
+  bg: grey
 - date: 12
   place: 'Middelland'
-  bg: darkturquoise
+  bg: grey
 - date: 13
   place: 'Short Seconds'
-  bg: blue
+  bg: grey
 - date: 14
   place: '-'
   bg:
@@ -41,20 +41,20 @@
   place: '-'
   bg:
 - date: 16
-  place: 'Bill Ringa'
-  bg: red
-- date: 17
-  place: 'Short Seconds'
-  bg: blue
-- date: 18
   place: 'Middelland'
   bg: darkturquoise
+- date: 17
+  place: 'Middelland'
+  bg: darkturquoise
+- date: 18
+  place: 'Short Seonds'
+  bg: blue
 - date: 19
   place: 'Middelland'
   bg: darkturquoise
 - date: 20
-  place: 'Short Seconds'
-  bg: blue
+  place: 'Middelland'
+  bg: darkturquoise
 - date: 21
   place: 'Confetti Club'
   bg: magenta
