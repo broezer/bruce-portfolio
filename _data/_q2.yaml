@@ -15,10 +15,10 @@
   bg: grey
 - date: 7
   place: '-'
-  bg:
+  bg: grey
 - date: 8
   place:
-  bg:
+  bg: grey
 - date: 9
   place: 'Bill Ringa'
   bg: grey
@@ -36,58 +36,58 @@
   bg: grey
 - date: 14
   place: '-'
-  bg:
+  bg: grey
 - date: 15
   place: '-'
-  bg:
+  bg: grey
 - date: 16
   place: 'Middelland'
-  bg: darkturquoise
+  bg: grey
 - date: 17
   place: 'Middelland'
-  bg: darkturquoise
+  bg: grey
 - date: 18
   place: 'Short Seconds'
-  bg: blue
+  bg: grey
 - date: 19
   place: 'Middelland'
-  bg: darkturquoise
+  bg: grey
 - date: 20
   place: 'Middelland'
-  bg: darkturquoise
+  bg: grey
 - date: 21
   place: 'Confetti Club'
-  bg: magenta
+  bg: grey
 - date: 22
   place: ''
-  bg:
+  bg: grey
 - date: 23
-  place: '-'
-  bg:
+  place: 'ShortSeconds'
+  bg: grey
 - date: 24
-  place: '-'
-  bg:
+  place: 'Middelland'
+  bg: grey
 - date: 25
-  place: '-'
-  bg:
+  place: 'ShortSeconds'
+  bg: grey
 - date: 26
-  place:
-  bg:
+  place: 'Middelland'
+  bg: grey
 - date: 27
   place: 'Kings Day'
-  bg: orange
+  bg: grey
 - date: 28
-  place: '-'
-  bg:
+  place: 'Middelland'
+  bg: grey
 - date: 29
   place: '-'
-  bg:
+  bg: grey
 - date: 30
-  place: '-'
-  bg:
+  place: 'Middelland'
+  bg: grey
 - date: 1
-  place:
-  bg:
+  place: 'Middelland'
+  bg: grey
 - date: 2
   place:
   bg:
@@ -152,11 +152,12 @@
   place: 'Portugal'
   bg: orange
 - date: 23
-  place: 'Portugal'
-  bg: orange
+  place: 'Sevdaliza'
+  bg: green
+  festival: 'Rehearsals'
 - date: 24
-  place: ''
-  bg:
+  place: 'St Petersburg'
+  bg: green
 - date: 25
   place: ''
   bg:
