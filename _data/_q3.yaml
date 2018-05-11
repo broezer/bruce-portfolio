@@ -19,8 +19,9 @@
   bg: red
   festival: 'Opener Festival'
 - date: 8
-  place:
-  bg:
+  place: Dojran
+  bg: red
+  festival: 'Star Dojran'
 - date: 9
   place: ''
   bg:
@@ -122,8 +123,9 @@
   place:
   bg:
 - date: 10
-  place:
-  bg:
+  place: 'Trnavský kraj'
+  festival: 'Grape Festival'
+  bg: red
 - date: 11
   place: ''
   bg:
@@ -150,8 +152,9 @@
   bg: red
   festival: 'MS Dockville'
 - date: 19
-  place: ''
-  bg:
+  place: 'Biddinghuizen'
+  bg: red
+  festival: 'Lowlands'
 - date: 20
   place: 'Moskou'
   bg: red
