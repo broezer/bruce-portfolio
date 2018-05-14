@@ -90,40 +90,40 @@
   bg: grey
 - date: 2
   place:
-  bg:
+  bg: grey
 - date: 3
   place: '-'
-  bg:
+  bg: grey
 - date: 4
   place:
-  bg:
+  bg: grey
 - date: 5
   place: '-'
-  bg:
+  bg: grey
 - date: 6
   place: '-'
-  bg:
+  bg: grey
 - date: 7
   place: '-'
-  bg:
+  bg: grey
 - date: 8
   place:
-  bg:
+  bg: grey
 - date: 9
   place:
-  bg:
+  bg: grey
 - date: 10
   place:
-  bg:
+  bg: grey
 - date: 11
   place: ''
-  bg:
+  bg: grey
 - date: 12
   place: '-'
-  bg:
+  bg: grey
 - date: 13
   place: '-'
-  bg:
+  bg: grey
 - date: 14
   place: ''
   bg:
