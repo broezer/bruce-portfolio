@@ -201,8 +201,8 @@
   place:
   bg:
 - date: 7
-  place: ''
-  bg:
+  place: 'Diep'
+  bg: purple
 - date: 8
   place: '-'
   bg:
