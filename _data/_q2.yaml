@@ -126,60 +126,60 @@
   bg: grey
 - date: 14
   place: ''
-  bg:
+  bg: grey
 - date: 15
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 16
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 17
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 18
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 19
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 20
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 21
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 22
   place: 'Portugal'
-  bg: orange
+  bg: grey
 - date: 23
   place: 'Sevdaliza'
-  bg: green
+  bg: grey
   festival: 'Rehearsals'
 - date: 24
   place: 'St Petersburg'
-  bg: green
+  bg: grey
 - date: 25
   place: ''
-  bg:
+  bg: grey
 - date: 26
   place: 'London'
-  bg: green
+  bg: grey
   festival: 'All Points East'
 - date: 27
   place:
-  bg:
+  bg: grey
 - date: 28
-  place:
-  bg:
+  place: 'ShortSeconds'
+  bg: blue
 - date: 29
-  place: '-'
-  bg:
+  place: 'ShortSeconds'
+  bg: blue
 - date: 30
-  place: '-'
-  bg:
+  place: 'Sevdaliza'
+  bg: red
 - date: 31
-  place: '-'
-  bg:
+  place: 'Confetti Club'
+  bg: magenta
 - date: 1
   place: 'Barcelona'
   bg: green
@@ -192,11 +192,11 @@
   place:
   bg:
 - date: 4
-  place: ''
-  bg:
+  place: 'Middelland'
+  bg: yellow
 - date: 5
-  place:
-  bg:
+  place: 'Middelland'
+  bg: yellow
 - date: 6
   place:
   bg:
