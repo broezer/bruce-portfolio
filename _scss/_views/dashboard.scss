@@ -1,0 +1,54 @@
+.dashboard{
+	background:#21252B;
+	color:white;
+	margin:0;
+	position: absolute;
+	height:100vh;
+	width: 100vw;
+	header{
+		padding-top:1vw;
+		padding-bottom:1vw;
+		position: absolute;
+	}
+	header.header h1.logo a:link, header.header h1.logo a:visited{
+		color:white;
+	}
+
+	main{
+		width:100vw;
+		height: 100vh;
+		top:0;
+		left:0;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.slideshow, .tasks{
+		display: block;
+		//min-height:100vh;
+		height:100%;
+		width:46%;
+		float:left;
+	}
+	.slideshow{
+		background-image:url('../assets/images/dashboard/ape.jpg');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+	.tasks{
+		box-sizing: border-box;
+		padding-top:15vh;
+		//padding-left:0;
+		padding-right:2vw;
+	}
+	h2{
+		text-transform: uppercase;
+		font-weight: 700;
+    font-size: 0.8vw;
+	}
+	li{
+		font-weight: 300;
+		letter-spacing: 0.2em;
+	}
+}
