@@ -8,14 +8,15 @@ title: Bruce Moerdjiman - Dashboard
 - Short Seconds
 - Bill Ringa
 - Middellandstraat
-- Diep
 - Sphereo
 
 ## Maintenance:
 - HIG DS
+- Ola Onda
 
 ## Acquisition:
 - The Buddy Film Project (Na de zomer)
 
 ## Facturatie:
 - Ola Onda
+- Diep
