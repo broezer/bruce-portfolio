@@ -22,7 +22,6 @@
     "gulp-sourcemaps": "^1.5.2",
     "gulp-uglify": "^2.0.0",
     "wiredep": "^3.0.1"
-
   },
   "repository": {
     "type": "git",
@@ -37,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync/issues"
   },
-  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync"
+  "homepage": "https://github.com/shakyShane/jekyll-gulp-sass-browser-sync",
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
+  }
 }

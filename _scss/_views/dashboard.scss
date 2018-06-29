@@ -35,6 +35,21 @@
 		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
+		&--large{
+			width:100%;
+			background-image: none;
+			background-color:white;
+		}
+		.image-wrap{
+			width:90vw;
+			height:80vh;
+			margin-left:5vw;
+			margin-top:10vh;
+			background-size:contain ;
+			background-position: center;
+			background-color:white;
+			background-repeat: no-repeat;
+		}
 	}
 	.tasks{
 		box-sizing: border-box;

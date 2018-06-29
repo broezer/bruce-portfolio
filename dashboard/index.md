@@ -1,5 +1,5 @@
 ---
-layout: dashboard
+layout: slider
 title: Bruce Moerdjiman - Dashboard
 ---
 
