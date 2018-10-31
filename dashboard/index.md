@@ -1,23 +1,20 @@
 ---
-layout: slider
+layout: dashboard
 title: Bruce Moerdjiman - Dashboard
 ---
 
 ## Current:
 - Sevdaliza Live
 - Short Seconds
-- Bill Ringa
-- Middellandstraat
-- Sphereo
+- Casting (AN&NAS)
 
 ## Maintenance:
 - HIG DS
-- Ola Onda
 
 ## Acquisition:
 - Momentr
-- The Buddy Film Project (Na de zomer)
+- Compendium
+- Middellandstraat
+- Leidmotiv
 
 ## Facturatie:
-- Ola Onda
-- Diep
