@@ -49,7 +49,7 @@ hr {
 h1{
  font-size: (100/1440) * 39 * $mobile-factor * 1vw;
  letter-spacing: (100/1440) * 1.4 * $mobile-factor  * 1vw;
- 
+
 }
 
 h1,h3{
@@ -59,17 +59,17 @@ h1,h3{
 
 h2{
  font-weight:300;
- font-size: (100/1440) * 16.3 * $mobile-factor  * 1vw;
+ font-size: (100/1440) * 16.3 * 1.3 * $mobile-factor  * 1vw;
 
 }
 
 h2, h3{
- letter-spacing: (100/1440) * 4.2 * $mobile-factor  * 1vw;
- line-height: (100/1440) * 25.2 * $mobile-factor  * 1vw;
+ letter-spacing: (100/1440) * 2 * $mobile-factor  * 1vw;
+ line-height: (100/1440) * 25.2 * 1.3 * $mobile-factor  * 1vw;
 }
 
 h3{
- font-size: (100/1440) * 15.4 * $mobile-factor  * 1vw;
+ font-size: (100/1440) * 15.4 * 1.3 * $mobile-factor  * 1vw;
 }
 
 @include grid-media($tablet){
