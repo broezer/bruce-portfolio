@@ -140,12 +140,37 @@ article header{
 }
 
 article.sevdaliza-tghd{
-	padding-bottom:12vw;
+	padding: bottom 10vw;
 	@include grid-media($tablet){
-		padding-bottom:0;
+		padding-bottom:2vw;
 	}
 }
 
+
+article.snipes{
+	padding-bottom:32vw;
+	@include grid-media($tablet){
+		padding-bottom:4vw;
+  }
+  figure{
+    width:100%;
+		//position:absolute;
+		@include grid-media($tablet){
+			margin-top:0;
+		}
+  }
+  section.content{ 
+    bottom:18%;
+    width:70%;
+		z-index:10;
+		position:absolute;
+    left:29.9%;
+    @include grid-media($tablet){
+      bottom:8%;
+    }
+		
+  }
+}
 
 article.sevdaliza-ade{
 	padding-bottom:7vw;
