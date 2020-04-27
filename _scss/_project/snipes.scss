@@ -1,3 +1,21 @@
+article.snipes{
+  padding-top:9vw;
+	padding-bottom:32vw;
+	@include grid-media($tablet){
+		padding-bottom:4vw;
+  }
+  section.content{ 
+    top: 0;
+    width: 70%;
+    z-index: 10;
+    position: absolute;
+    left: 26%;
+    @include grid-media($tablet){
+      //bottom:8%;
+    }	
+  }
+}
+
 .parent-snipes {
     display: grid;
     grid-template-columns: repeat(24, 1fr);

@@ -1,0 +1,38 @@
+article.sevdaliza-ade{
+	padding-bottom:7vw;
+	@include grid-media($tablet){
+		padding-bottom:0;
+	}
+  
+  section.content{
+    width:50%;
+		z-index:10;
+		position:absolute;
+    top:0;
+		left:0;
+		@include grid-media($tablet){
+	    //margin-top: 1vw;
+
+	  }
+  }
+}
+.parent-ade {
+    display: flex;
+    width: 70%;
+    margin-left: 30%;
+
+    img{
+      display: inline-block;
+    }
+
+    .img1{
+      margin-right: 8px;
+      width: calc(75% - 4px);
+    }
+    .img2{
+      width: calc(25% - 4px);
+    }
+}
+
+
+    

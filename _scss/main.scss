@@ -144,58 +144,6 @@ article.sevdaliza-tghd{
 	}
 }
 
-
-article.snipes{
-  padding-top:9vw;
-	padding-bottom:32vw;
-	@include grid-media($tablet){
-		padding-bottom:4vw;
-  }
-  section.content{ 
-    top: 0;
-    width: 70%;
-    z-index: 10;
-    position: absolute;
-    left: 26%;
-    @include grid-media($tablet){
-      //bottom:8%;
-    }
-		
-  }
-}
-
-article.sevdaliza-ade{
-	padding-bottom:7vw;
-	@include grid-media($tablet){
-		padding-bottom:0;
-	}
-  figure{
-    width:70%;
-		margin-left:34%;
-		margin-top: 2.5vw;
-		//position:absolute;
-		//top:0;
-		//left:0;
-		//z-index:1;
-		@include grid-media($tablet){
-			margin-top:0;
-		}
-  }
-  section.content{
-    margin-top: -10vw;
-
-    width:50%;
-		z-index:10;
-		position:absolute;
-		left:0;
-		@include grid-media($tablet){
-	    margin-top: 1vw;
-
-	  }
-  }
-}
-
-
 article.sevdaliza{
   figure{
     width:94%;
@@ -379,3 +327,4 @@ main.about{
 @import "_views/dashboard";
 @import "_project/tghd.scss";
 @import "_project/snipes.scss";
+@import "_project/ade.scss";
