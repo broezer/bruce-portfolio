@@ -21,8 +21,6 @@ body {
 
   }
 
-
-
 figure, img{
   width:100%;
   height:auto;
@@ -148,25 +146,19 @@ article.sevdaliza-tghd{
 
 
 article.snipes{
+  padding-top:9vw;
 	padding-bottom:32vw;
 	@include grid-media($tablet){
 		padding-bottom:4vw;
   }
-  figure{
-    width:100%;
-		//position:absolute;
-		@include grid-media($tablet){
-			margin-top:0;
-		}
-  }
   section.content{ 
-    bottom:18%;
-    width:70%;
-		z-index:10;
-		position:absolute;
-    left:29.9%;
+    top: 0;
+    width: 70%;
+    z-index: 10;
+    position: absolute;
+    left: 26%;
     @include grid-media($tablet){
-      bottom:8%;
+      //bottom:8%;
     }
 		
   }
@@ -385,3 +377,5 @@ main.about{
 }
 
 @import "_views/dashboard";
+@import "_project/tghd.scss";
+@import "_project/snipes.scss";

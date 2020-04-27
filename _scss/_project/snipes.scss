@@ -1,0 +1,11 @@
+.parent-snipes {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 9px;
+
+    .img1 { grid-area: 3 / 1 / 9 / 7; }
+    .img2 { grid-area: 4 / 7 / 9 / 16; }
+    .img3 { grid-area: 4 / 16 / 9 / 25; }   
+}
+
