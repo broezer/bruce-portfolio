@@ -1,0 +1,44 @@
+article.natuurpodium{
+	padding-bottom:32vw;
+	@include grid-media($tablet){
+		padding-bottom:4vw;
+  }
+  section.content{ 
+    top: 4vw;
+    width: 40%;
+    z-index: 10;
+    position: absolute;
+    left: 54%;
+    @include grid-media($tablet){
+      //bottom:8%;
+    }	
+  }
+}
+
+.parent-natuurpodium {
+    width: calc(50%);
+    display: block;
+    //flex-flow: column wrap;
+
+    img{
+      display: block;
+      width: calc(53.5% - 0.4vw);
+      margin-bottom:0.8vw;
+      float: left;
+      //margin-right: 8px;
+      margin-right:0.8vw;
+    }
+
+   
+
+    .img2, .img5{
+         width: calc(46.5% - 0.4vw);
+         float:right;
+         margin-right:0;
+         //padding-right:0;
+    }
+
+   
+   
+}
+
