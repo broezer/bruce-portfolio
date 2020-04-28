@@ -3,6 +3,9 @@ article.sevdaliza-tghd{
 	@include grid-media($tablet){
 		padding-bottom:2vw;
 	}
+    section.content{
+        padding-top:2vw;
+    }
 }
 
 .parent-tghd {
