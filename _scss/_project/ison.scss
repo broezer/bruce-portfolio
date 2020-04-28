@@ -1,7 +1,5 @@
 article.sevdaliza{
-  figure{
-    width:94%;
-  }
+  
   section.content{
 
     margin-top: -7.2vw;
@@ -12,5 +10,50 @@ article.sevdaliza{
 		@include grid-media($tablet){
 			margin-top:1vw;
 		}
+  }
+}
+
+.parent-ison{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap:wrap;
+  align-items: flex-end;
+  .col1{
+    width: calc(44% - 0.8vw);
+    margin-right: 0.8vw; 
+  }
+
+  .col2{
+    width:56%;
+    display: flex;
+    .col2-1{
+      width:63%;
+      display: flex;
+      flex-wrap:wrap;
+      .row-1{
+        margin-bottom:0.8vw;
+        display: flex;
+        justify-content: space-between;
+      }
+      .row-2{
+        .img4{
+          height:100%;
+        }
+      }
+      .img2, .img3{
+        width: calc(50% - 0.4vw);
+      }
+    }
+    .col2-2{
+      width:calc(37% - 0.8vw);
+      margin-left:0.8vw;
+       .img5, .img6{
+         height:calc(35% - 0.8vw);
+         margin-bottom:0.8vw;
+       }
+       .img7{
+        height:30%;
+       }
+    }
   }
 }
