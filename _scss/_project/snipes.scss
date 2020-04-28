@@ -1,17 +1,17 @@
 article.snipes{
-  padding-top:9vw;
+  //padding-top:9vw;
 	padding-bottom:32vw;
 	@include grid-media($tablet){
-		padding-bottom:4vw;
+		padding-bottom:8vw;
   }
   section.content{ 
-    top: 0;
+    bottom: 8%;
     width: 70%;
     z-index: 10;
     position: absolute;
     left: 26%;
     @include grid-media($tablet){
-      //bottom:8%;
+      bottom:0;
     }	
   }
 }
@@ -22,8 +22,8 @@ article.snipes{
     grid-column-gap: 0.8vw;
     grid-row-gap: 0.8vw;
     
-    .img1 { grid-area: 3 / 1 / 9 / 7; }
-    .img2 { grid-area: 4 / 7 / 9 / 16; }
-    .img3 { grid-area: 4 / 16 / 9 / 25; }   
+    .img1 { grid-area: 1 / 1 / 6 / 7; }
+    .img2 { grid-area: 1 / 7 / 9 / 16; }
+    .img3 { grid-area: 1 / 16 / 9 / 25; }   
 }
 

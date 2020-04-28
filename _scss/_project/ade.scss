@@ -1,18 +1,22 @@
 article.sevdaliza-ade{
 	padding-bottom:7vw;
+  padding-top:10vw;
 	@include grid-media($tablet){
 		padding-bottom:0;
+    padding-top:0;
+    //margin-top:2vw
 	}
   
   section.content{
     width:50%;
 		z-index:10;
 		position:absolute;
-    top:0;
+    top:-5vw;
 		left:0;
+    
 		@include grid-media($tablet){
 	    //margin-top: 1vw;
-
+      top:0;
 	  }
   }
 }

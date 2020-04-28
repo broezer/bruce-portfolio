@@ -1,7 +1,7 @@
 article.natuurpodium{
-	padding-bottom:32vw;
+	//padding-bottom:2vw;
 	@include grid-media($tablet){
-		padding-bottom:4vw;
+		padding-bottom:2vw;
   }
   section.content{ 
     top: 4vw;
