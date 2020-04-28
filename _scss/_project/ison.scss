@@ -1,0 +1,16 @@
+article.sevdaliza{
+  figure{
+    width:94%;
+  }
+  section.content{
+
+    margin-top: -7.2vw;
+    width:50%;
+		z-index:10;
+		position:absolute;
+		right:4vw;
+		@include grid-media($tablet){
+			margin-top:1vw;
+		}
+  }
+}

@@ -1,0 +1,16 @@
+article.rma{
+  flex-direction: row-reverse;
+  figure{
+    width:80%;
+  }
+  section.content{
+    position: absolute;
+    left:0;
+    width: 50%;
+    z-index:9;
+    margin-top: 0;
+    @include grid-media($tablet){
+      margin-top: 6vw;
+    };
+  }
+}

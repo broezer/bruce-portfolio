@@ -1,0 +1,18 @@
+article.containr-affairs{
+  width:98%;
+  @include grid-media($tablet){
+    width:90%;
+  }
+  figure{
+    width:50%;
+    margin-left:0;
+    @include grid-media($tablet){
+      margin-left:5%;
+    }
+  }
+  section.content{
+    position: absolute;
+    width: 45%;
+    left: 55%;
+  }
+}

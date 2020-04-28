@@ -19,7 +19,7 @@ body {
     visibility: visible;
 		opacity:1;
 
-  }
+}
 
 figure, img{
   width:100%;
@@ -132,162 +132,10 @@ article{
   }
 }
 
-
 article header{
   margin-bottom:3vw
 }
 
-article.sevdaliza-tghd{
-	padding: bottom 10vw;
-	@include grid-media($tablet){
-		padding-bottom:2vw;
-	}
-}
-
-article.sevdaliza{
-  figure{
-    width:94%;
-    //margin-right:6%;
-		//position:absolute;
-		//top:0;
-		//left:0;
-		//z-index:1;
-  }
-  section.content{
-
-    margin-top: -7.2vw;
-    width:50%;
-		z-index:10;
-		position:absolute;
-		right:4vw;
-		@include grid-media($tablet){
-			margin-top:1vw;
-		}
-  }
-}
-
-article.indo{
-	padding-bottom:22vw;
-  figure{
-    width:70%;
-    margin-right:0;
-		right:0;
-		top:(100/1440) * 95 * $mobile-factor * 1vw;
-		position: absolute;
-		@include grid-media($tablet){
-			padding-bottom:14vw;
-			top:(100/1440) * 120 * 1vw;
-			width:85%;
-			right:-5%;
-		}
-  }
-  section.content{
-    margin-top: 0;
-    width:100%;
-  }
-}
-
-
-article.olaonda{
-  width:98%;
-  @include grid-media($tablet){
-    width:90%;
-  }
-  figure{
-    width:65%;
-    margin-left:0;
-    @include grid-media($tablet){
-			//width:75%;
-      margin-left:0;
-    }
-  }
-  section.content{
-    position: absolute;
-    width: 30%;
-    left: 68%;
-		top:-5vw;
-		@include grid-media($tablet){
-			top:0;
-			 left: 60%;
-    }
-  }
-}
-
-
-
-article.momentr{
-  figure{
-    width:80%;
-    margin-left:20%;
-  }
-  section.content{
-    width:80%;
-    @include grid-media($tablet){
-      width:47%;
-    }
-  }
-}
-
-article.containr-affairs{
-  width:98%;
-  @include grid-media($tablet){
-    width:90%;
-  }
-  figure{
-    width:50%;
-    margin-left:0;
-    @include grid-media($tablet){
-      margin-left:5%;
-    }
-  }
-  section.content{
-    position: absolute;
-    width: 45%;
-    left: 55%;
-  }
-}
-
-
-article.woordfruit{
-  figure{
-    width:84%;
-    margin-left:8%;
-    margin-right:8%;
-
-  }
-  section.content{
-
-  }
-}
-
-article.rma{
-  flex-direction: row-reverse;
-  figure{
-    width:80%;
-  }
-  section.content{
-    position: absolute;
-    left:0;
-    width: 50%;
-    z-index:9;
-    margin-top: 0;
-    @include grid-media($tablet){
-      margin-top: 6vw;
-    };
-  }
-
-}
-
-article.tsm{
-  figure{
-    width:80%;
-    margin-right: 20%;
-  }
-  section.content{
-    margin-left:50%;
-    width: 50%;
-  }
-}
 
 footer{
   h2, h3{
@@ -329,3 +177,11 @@ main.about{
 @import "_project/natuurpodium.scss";
 @import "_project/snipes.scss";
 @import "_project/ade.scss";
+@import "_project/ison.scss";
+@import "_project/indo.scss";
+@import "_project/ola-onda.scss";
+@import "_project/momentr.scss";
+@import "_project/containr-affairs.scss";
+@import "_project/woordfruit.scss";
+@import "_project/rma.scss";
+@import "_project/tsm.scss";
