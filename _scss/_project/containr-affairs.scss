@@ -3,16 +3,26 @@ article.containr-affairs{
   @include grid-media($tablet){
     width:90%;
   }
-  figure{
-    width:50%;
-    margin-left:0;
-    @include grid-media($tablet){
-      margin-left:5%;
-    }
-  }
   section.content{
     position: absolute;
     width: 45%;
     left: 55%;
   }
 }
+
+.parent-ca {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr repeat(7, 1fr) 0.1fr;
+  grid-template-rows: 1.2fr repeat(7, 1fr) 1.2fr repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  .img1 { grid-area: 1 / 1 / 9 / 4; }
+  .img2 { grid-area: 7 / 4 / 15 / 7; }
+  .img3 { grid-area: 6 / 2 / 14 / 5; }
+  .img4 { grid-area: 2 / 3 / 10 / 6; }
+  figure img{
+    object-fit:contain;
+  }
+}
+
