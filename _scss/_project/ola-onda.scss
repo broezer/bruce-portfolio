@@ -4,7 +4,7 @@ article.olaonda{
     width:90%;
   }
   figure{
-    width:65%;
+    //width:65%;
     margin-left:0;
     @include grid-media($tablet){
 			//width:75%;
@@ -22,3 +22,28 @@ article.olaonda{
     }
   }
 }
+
+
+.parent-olaonda {
+  display: grid;
+  grid-template-columns: 0.5fr repeat(2, 0.25fr) repeat(2, 0.5fr) 0.7fr 1.6fr;
+  grid-template-rows: repeat(2, 1fr) repeat(4, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  .img1 { 
+    grid-area: 1 / 1 / 5 / 5; 
+  }
+  .img2 { 
+    grid-area: 4 / 3 / 7 / 7; 
+    img{
+    object-position: bottom;
+    }
+  }
+  .img3 { 
+    grid-area: 5 / 2 / 7 / 4; 
+  }
+  figure > img{
+    object-fit: contain;
+  }
+}
+
