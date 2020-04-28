@@ -1,20 +1,39 @@
 article.indo{
 	padding-bottom:22vw;
-  figure{
+  
+	section.content{
+		margin-top: 0;
+		width:100%;
+	}
+}
+
+.parent-indo{
     width:70%;
     margin-right:0;
-		right:0;
-		top:(100/1440) * 95 * $mobile-factor * 1vw;
-		position: absolute;
-		@include grid-media($tablet){
-			padding-bottom:14vw;
-			top:(100/1440) * 120 * 1vw;
-			width:85%;
-			right:-5%;
+	right:0;
+	top:(100/1440) * 95 * $mobile-factor * 1vw;
+	position: absolute;
+	display:flex;
+	flex-wrap:wrap;
+	//align-items: flex-end;
+	@include grid-media($tablet){
+		padding-bottom:14vw;
+		top:(100/1440) * 120 * 1vw;
+		width:85%;
+		right:-5%;
+	}
+
+	.col1{
+		width:33%;
+		.img2{
+			margin-bottom:0.8vw;
 		}
-  }
-  section.content{
-    margin-top: 0;
-    width:100%;
-  }
+	}
+	.col2{
+		width:calc(67% - 0.8vw);
+		margin-left:0.8vw;
+		.img1{
+			height:100%;
+		}
+	}
 }
