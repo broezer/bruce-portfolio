@@ -13,6 +13,36 @@ article.natuurpodium{
       //bottom:8%;
     }	
   }
+  
+  figure{
+    //overflow:hidden;
+  }
+
+  figure img{
+    transform:translateY(20%);
+    opacity:0;
+  }
+ 
+
+  &.active{
+    figure img{
+        transform:translateY(0);
+        opacity:1;
+        transition: 320ms all cubic-bezier(.39,.84,0,1.68);
+    }
+    figure.img2 img{
+        transition-delay:200ms;
+    }
+    figure.img3 img{
+        transition-delay:400ms;
+    }
+    figure.img4 img{
+        transition-delay:600ms;
+    }
+    figure.img5 img{
+        transition-delay:800ms;
+    }
+  }
 }
 
 .parent-natuurpodium {

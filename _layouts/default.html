@@ -31,11 +31,13 @@
           {{ content }}
 
           <script src="/js/script.min.js"></script>
+          <script src="/js/noframework.waypoints.min.js"></script>
+          <script src="/js/main.js"></script>
           <script type="text/javascript">
           // load all files asynchronously!
           var script = $script;
           script.path('/js/');
-
+        
           /*
           $script.get('https://code.jquery.com/jquery-3.2.1.min.js', function () {
           });
@@ -43,9 +45,6 @@
 
           $script.get('https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js', function () {
             WebFont.load({
-              google: {
-                families: ['Montserrat', 'Lora']
-              },
               typekit: {
                  id: 'ptu0nia'
                }
