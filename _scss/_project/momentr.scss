@@ -1,10 +1,12 @@
 article.momentr{
+  padding-top:10vw;
   figure{
     width:80%;
     margin-left:20%;
   }
   section.content{
     width:80%;
+    padding-bottom:10vw;
     @include grid-media($tablet){
       width:47%;
     }

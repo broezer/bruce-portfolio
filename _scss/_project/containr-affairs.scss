@@ -1,12 +1,15 @@
 article.containr-affairs{
   width:98%;
+  padding-bottom:6vw;
   @include grid-media($tablet){
     width:90%;
+    
   }
   section.content{
     position: absolute;
     width: 45%;
     left: 55%;
+   
   }
 }
 
