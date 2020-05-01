@@ -19,7 +19,7 @@ article.natuurpodium{
   }
 
   figure img{
-    transform:translateY(20%);
+    //transform:translateY(20%);
     opacity:0;
   }
  
@@ -28,7 +28,7 @@ article.natuurpodium{
     figure img{
         transform:translateY(0);
         opacity:1;
-        transition: 320ms all cubic-bezier(.39,.84,0,1.68);
+        //transition: 320ms all cubic-bezier(.39,.84,0,1.68);
     }
     figure.img2 img{
         transition-delay:200ms;
