@@ -4,17 +4,13 @@ title: Bruce Moerdjiman - Dashboard
 ---
 
 ## Current:
-- Sevdaliza Live
-- Short Seconds
-- Casting (AN&NAS)
+- Casting (by Nuray)
 
 ## Maintenance:
 - HIG DS
+- Ola Onda
 
 ## Acquisition:
-- Momentr
-- Compendium
-- Middellandstraat
-- Leidmotiv
+
 
 ## Facturatie:
